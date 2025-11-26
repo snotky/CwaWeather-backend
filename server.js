@@ -37,7 +37,7 @@ const gettaichungWeather = async (req, res) => {
       {
         params: {
           Authorization: CWA_API_KEY,
-          locationName: "台中市",
+          locationName: "臺中市",
         },
       }
     );
